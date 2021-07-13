@@ -282,3 +282,150 @@ size: 50px;
         color: gray;
     }
     
+
+/* ---------------------
+    Media Queries 
+-----------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+
+    /* First Section  */
+
+    .top-banner{
+        background-color: #2d25a0;
+        width: 100%;
+        display: flex;
+        flex-grow: 100px;
+    }
+    .top-text{
+        margin: 0 auto;
+    }
+    .top-h1{
+        font-size: 20px;
+    }
+    .watch-btn{
+        background-color: #e02c6d;
+        color: white;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 10px 15px;
+        }
+        .watch-btn:hover{
+           background-color: white;
+           color: #e02c6d;
+           font-weight: 700;
+        }
+
+        /* Second Section  */
+
+        .grid-view{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding-left: 72px;
+            place-items: center;
+            
+           
+        }
+
+        /* Third Section  */
+
+
+        .card{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            }
+
+
+            /* Four Section  */
+
+           
+            
+            
+         .post-section{
+                text-align: center;
+                padding-bottom: 30px;
+                
+            }
+            .post-h1{
+            font-size: 30px;
+            font-weight: 700;
+            color: #e02c6d;
+            }
+            .post-p{
+            padding-bottom: 20px;
+            font-weight: 300;
+            color: gray;
+            }
+            
+            .post-btn{
+            background-color: #e02c6d;
+            color: white;
+            font-weight: 300;
+            text-decoration: none;
+            padding: 8px 10px;
+            }
+
+            /* Footer Section  */
+
+
+       
+            .footer-part{
+                padding-top: 50px;
+                text-align: center;
+                }
+                .foot-img{
+                size: 30px;
+                }
+                .foot-img img{
+                    width: 30%;
+                }
+                
+                .icon-part{
+                    display: flex;
+                    justify-content: center;
+                    flex-grow: 20px;
+                  font-size: 20px;
+                }
+                .fa-facebook-f{
+                    color: gray;
+                    padding: 25px;
+                        font-size: 25px;
+                      }
+                .fa-facebook-f:hover{
+                        color: #4472b8;
+                       
+                    }
+                        
+                .fa-instagram{
+                        color: gray;
+                        padding: 25px;
+                        font-size: 25px;
+                    }
+                    .fa-instagram:hover{
+                       color:#af3192;
+                    }
+                    
+                    .fa-linkedin-in{
+                        color: gray;
+                        padding: 25px;
+                        font-size: 25px;
+                    }
+                    .fa-linkedin-in:hover{
+                        color: #4472b8;
+                    }
+                    .fa-youtube{
+                        color: gray;
+                        padding: 25px;
+                        font-size: 25px;
+                    }
+                    .fa-youtube:hover{
+                        color: red;
+                    }
+                    .copyright-part{
+                        text-align: center;
+                        color: gray;
+                    }
+        
+        
+}
