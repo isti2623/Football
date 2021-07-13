@@ -1,0 +1,47 @@
+/* Utilities */
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+}
+/************************** First Section Or Banner Section ***************************/
+.top-banner{
+    background-color: #2d25a0;
+    margin-top: -50px;
+    display: flex;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    padding-top: 90px;
+    width: 90%;
+}
+.top-text{
+width: 50%;
+margin: 50px;
+padding: 80px;
+}
+.top-h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    word-spacing: 20px;
+}
+.top-h3{
+font-size: 20px;
+
+}
+.watch-btn{
+background-color: #e02c6d;
+color: white;
+font-weight: 300;
+text-decoration: none;
+padding: 15px 20px;
+}
+.watch-btn:hover{
+   background-color: white;
+   color: #e02c6d;
+   font-weight: 700;
+}
+
+/******************************************** Second Section Or Grid Section  **********************************************/
