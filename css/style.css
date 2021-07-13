@@ -2,6 +2,7 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0 auto;
+    background-color:whitesmoke;
 }
 /************************** First Section Or Banner Section ***************************/
 .top-banner{
@@ -45,3 +46,41 @@ padding: 15px 20px;
 }
 
 /******************************************** Second Section Or Grid Section  **********************************************/
+
+.grid-view{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items :center;
+    padding-right:70px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+   
+}
+.grid-item{
+    height: 450px;
+    width: 350px;
+    background-color:#ffffff;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.grid-img{
+width: 100%;
+}
+.grid-img img{
+    width: 100%;
+    }
+.grid-caption{
+
+}
+.grid-h3{
+    font-weight: 700;
+    color: #e02c6d;
+
+}
+.grid-p{
+font-weight: 300;
+color: gray;
+}
