@@ -51,9 +51,9 @@ padding: 15px 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     place-items :center;
-    padding-right:70px;
-    padding-left: 70px;
-    padding-bottom: 50px;
+    padding-right:170px;
+    padding-left: 170px;
+    padding-bottom: 100px;
    
 }
 .grid-item{
@@ -83,4 +83,72 @@ width: 100%;
 .grid-p{
 font-weight: 300;
 color: gray;
+}
+
+/******************************** Third Section Or Maarket Section ***********************************/
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    place-items :center;
+}
+.card-item{
+    width: 400px;
+    height: 540px;
+    margin: 80px;
+    text-align: center;
+    
+   
+}
+.card-img img{
+    width: 80%;
+    size: 56px;
+    transition: 2s;
+    
+}
+.card-img img:hover{
+    transform:rotate(180deg);
+    cursor: pointer;
+    
+} 
+
+.card-item:hover{
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+             cursor: pointer;
+             
+}
+
+.revision-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    color: #e02c6d;
+}
+.fa-star-half-alt{
+    color: #e02c6d;
+}
+.title{
+    text-align: center;
+}
+.price{
+    color: #e02c6d;
+ 
+}
+.offer{
+    
+    color: rgba(128, 128, 128, 0.781);
+}
+.discount{
+    color: gray;
+}
+.price-part{
+    display: flex;
+    align-items: center;
+    column-gap:  10px;
 }
