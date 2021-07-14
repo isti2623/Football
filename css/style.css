@@ -309,7 +309,7 @@ size: 50px;
         color: white;
         font-weight: 300;
         text-decoration: none;
-        padding: 10px 15px;
+        padding: 0px 1px;
         }
         .watch-btn:hover{
            background-color: white;
@@ -322,7 +322,7 @@ size: 50px;
         .grid-view{
             display: grid;
             grid-template-columns: repeat(1,1fr);
-            padding-left: 72px;
+            padding-left: 18px;
             place-items: center;
             
            
